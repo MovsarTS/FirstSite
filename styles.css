@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Первый блок */
+header{
+    width: 100%;
+}
+menu{
+    padding: 30px 0px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo, .listmenu, .first__button{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.first__button{
+    justify-content: end;
+}
+.listmenu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.first__button button{
+    padding: 13px 26px 7px 26px;
+    font-size: 18px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    background-color: white;
+    border-radius: 5px;
+}
+.first__button button:hover{
+    background-color: #F7941E;
+    color: white;
+}
+/* Второй блок */
+
+section{
+    width: 100%;
+}
+
+.firstTwoBlocks{
+    background-color: #FAFAFA;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.oneBlock{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoBlock{
+    width: 50%;
+    
+}
+.oneBlockText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.oneBlockText p:first-child{
+    font-size: 56px;
+    margin-bottom: 35px;
+}
+.p2{
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.oneBlockButton button{
+    padding: 17px 25px 15px 25px;
+    font-size: 18px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+.oneBlockButton button:hover{
+    background-color: #F7941E;
+    color: #FAFAFA;
+}
+/* Третий блок */
+section{
+    width: 100%;
+}
+.secondTwoBlocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.oneBlock2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoBlock2{
+    width: 50%;
+}
+.oneBlockText2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.oneBlockText2 p:first-child{
+    font-size: 32px;
+    margin-bottom: 23px;
+}
+.p2_2{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.oneBlockButton2 button{
+    padding: 17px 32px 15px 32px;
+    font-size: 16px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+.oneBlockButton2 button:hover{
+    background-color: #F7941E;
+    color: #FAFAFA;
+}
+/* Четвертый блок */
+main{
+    width: 100%;
+}
+.whiteBlock{
+    padding: 80px 0px;
+    width: 100%;
+    text-align: center;
+}
+.whiteBlock p:first-child{
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.whiteBlock p:last-child{
+    font-size: 20px;
+}
+/* Пятый блок */
+main{
+    width: 100%;
+}
+.katalog{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+.thing{
+    background-color: #FAFAFA;
+    width: 23%;
+}
+.thing_text p:first-child{
+    font-size: 20px;
+    padding: 24px 0px 80px 24px
+}
+.thing_text p:last-child{
+    font-size: 15px;
+    padding: 0px 0px 24px 24px
+}
+/* Шестой блок */
+.orangeBlock{
+    background-color: #F7941E;
+    padding: 80px 0px;
+    display: flex;
+}
+.leftSide, .rightSide{
+    width: 50%;
+}
+.leftSide p{
+    font-size: 32px;
+    text-align: center;
+}
+.rightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide button{
+    background-color: black;
+    color: white;
+    padding: 12px 24px 10px 25px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.rightSide button:hover{
+    background-color: #F7941E;
+    color: black;
+}
+/* Седьмой блок */
+/* (просто скопировал стили Четвертого блока*/
+/* Восьмой блок */
+.blackAndWhite{
+    width: 80%;
+    background-color: #231F20;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+}
+.fotka{
+    width: 30%;
+}
+.textInBlack{
+    padding: 50px 0px 0px 60px;
+    width: 70%;
+    color: white;
+}
+.text1{
+    font-size: 14px;
+}
+.text2{
+    padding-top: 40px;
+    width: 60%;
+    font-size: 48px;
+}
+.text3{
+    padding-top: 60px;
+    font-size: 18px;
+}
+/* Девятый блок */
+.whiteBlocks{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.whiteBlock2{
+    width: 49%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.whiteBlockText2{
+    width: 90%;
+    margin: auto;
+}
+.textWhite1{
+    width: 70%;
+    padding-top: 50px;
+    font-size: 24px;
+}
+.textWhite2{
+    width: 80%;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.textWhite3{
+    padding: 50px 0px;
+    font-size: 14px;
+}
+/* Последний блок */
+footer{
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.end{
+    width: 70%;
+    margin: auto;
+    padding: 80px 0px;
+    border-bottom: 2px solid black;
+    margin-bottom: 55px;
+}
+.logoAndText{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.homeAbout{
+    font-weight: bold;
+    width: 25%;
+}
+.homeAbout ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.endLogo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.serviceBlog{
+    font-weight: bold;
+    width: 25%;
+}
+.serviceBlog ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.icons{
+    width: 20%;
+    margin: auto;
+}
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.endTwoText{
+    width: 17%;
+    margin: auto;
+    padding: 60px 0px;
+}
+.endTwoText ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.one{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.two{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
