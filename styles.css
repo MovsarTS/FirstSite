@@ -329,3 +329,190 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+
+menu{
+    width: 75%;
+}
+
+.listmenu{
+    display: none;
+}
+
+.logo img{
+    width: 70px;
+    height: 50px;
+}
+
+.oneBlock{
+    width: 100%;
+}
+
+.twoBlock{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.firstTwoBlocks{
+    flex-wrap: wrap
+}
+
+.oneBlockText{
+    width: 80%;
+}
+
+.oneBlockButton{
+    display: flex;
+    justify-content: center;
+}
+
+.oneBlock{
+    padding: 20px 0px;
+}
+
+.oneBlockText p:first-child{
+    font-size: 40px;
+}
+
+.secondTwoBlocks{
+    flex-wrap: wrap-reverse;
+}
+
+.oneBlock2{
+    width: 100%;
+    padding: 20px;
+}
+
+.oneBlockText2{
+    width: 90%;
+}
+
+.twoBlock2{
+    width: 100%;
+}
+
+.oneBlockButton2{
+    display: flex;
+    justify-content: center;
+}
+
+.oneBlockText2 p:first-child{
+    text-align: center;
+}
+
+.whiteBlock{
+    padding: 30px 0px;
+}
+
+.katalog{
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.thing{
+    width: 47%;
+    margin-bottom: 20px;
+}
+
+.orangeBlock{
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.leftSide{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.rightSide{
+    width: 100%;
+    flex-direction: column;
+}
+.rightSide button{
+    margin-right: 0px;
+
+}
+
+.rightSide :first-child{
+    margin-bottom: 10px;
+}
+
+.blackAndWhite{
+    flex-wrap: wrap;
+}
+
+.fotka{
+    width: 100%;
+}
+
+.textInBlack{
+    width: 100%;
+}
+
+.blackAndWhite{
+    width: 100%;
+}
+
+.text2{
+    width: 80%;
+}
+
+.text3{
+    padding: 40px 0px;
+}
+
+.whiteBlocks{
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.whiteBlock2{
+    margin: auto;
+    width: 80%;
+}
+
+.textWhite3{
+    padding: 50px 0px;
+}
+
+.serviceBlog{
+    display: none;
+}
+
+.homeAbout{
+    display: none;
+}
+
+.logoAndText{
+    justify-content: center;
+}
+
+.end{
+    padding: 30px 0px;
+}
+
+.icons{
+    width: 70%;
+}
+
+.endTwoText{
+    width: 50%;
+}
+
+.endTwoText ul{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.one{
+    width: 100%;
+}
+
+.two{
+    width: 100%;
+}
+
+}
